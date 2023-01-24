@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Jean-Jacques Cristofari-Neto</title>
+    </head>
+    <body>
+        
+        <style>
+            body {
+              background-image: url("Fond.png");
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
+
+            <header>
+                <div class="head">
+                    <div class="home">
+                        <a href="index.html"><img src=monlogo.gif alt="Mon Logo"> </a>
+                    </div>
+                    <div class="heady">
+                        <a href="parcours.html">Mon parcours</a>
+                    </div>
+                    <div class="heady">
+                        <a href="travaux.html">Mes travaux</a>
+                    </div>
+                    <div class="heady">
+                        <a href="competences.html">Mes compétences</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="ctccarte" >        	
+                <div class="contactez-nous">
+                    <h1>Contactez-moi !</h1>
+                    <p>N'hésitez pas à m'envoyer un message à l'aide de ce formulaire !</p>
+                    <form action="/page-traitement-donnees" method="post">
+                        <div>
+                            <label for="nom">Votre nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Jean-Marcel" required>
+                        </div>
+                        <div>
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                        </div> 
+                        <div>
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Envoyer mon message</button>
+                        </div>
+                    </form>
+                    </div>
+            </div>
+
+    <footer>
+        <div class="foot">
+        <div class="icone">
+            Numéro de télephone: 0619010753
+        </div> 
+        <div class="divider"></div>
+
+        <div class="icone">
+            <a href="contact.html">Me contacter</a>
+        </div>
+        <div class="divider"></div>
+        <div class="icone">
+            <img src="logommi.png" alt="Logo MMI">
+        </div>
+        
+        </div>
+    </footer>
+
+        <script src="vanilla-tilt.js"></script>
+    </body>
+
+</html>
